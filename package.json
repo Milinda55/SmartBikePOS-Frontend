@@ -10,18 +10,41 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.8",
+    "@tanstack/react-query": "^5.79.0",
+    "axios": "^1.9.0",
+    "class-variance-authority": "^0.7.1",
+    "idb": "^8.0.3",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.1",
+    "shadcn-ui": "^0.9.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vitejs/plugin-react": "^4.4.1",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.25.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8",
     "vite": "^6.3.5"
-  }
+  },
+  "description": "A modern, offline-ready Point of Sale (POS) frontend for bike spare part stores.   Built using **React**, **Vite**, **PWA**, **Tailwind CSS**, and **ShadCN UI**, this frontend syncs seamlessly with the [SmartBikePOS Backend](https://github.com/Milinda55/SmartBikePOS-Backend.git).",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milinda55/SmartBikePOS-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Milinda55/SmartBikePOS-Frontend/issues"
+  },
+  "homepage": "https://github.com/Milinda55/SmartBikePOS-Frontend#readme"
 }

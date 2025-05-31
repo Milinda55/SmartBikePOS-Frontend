@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello POS</h1>
+      <h1 className="flex justify-center">Hello POS</h1>
     </>
   )
 }
